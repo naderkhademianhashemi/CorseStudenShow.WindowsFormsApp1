@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ChromeApp" xml:space="preserve">
+    <value>C:\Program Files\Google\Chrome\Application\chrome.exe</value>
+  </data>
   <data name="Natoos" xml:space="preserve">
     <value>https://reports.natoos.com/Education/CorseStudenShow?CourseId=</value>
   </data>

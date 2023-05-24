@@ -34,14 +34,14 @@ namespace CorseStudenShow.WindowsFormsApp1
             process.StartInfo.Arguments =
                         strUrl
                         + from + " --new-window"; ;
-            process.StartInfo.FileName = @"C:\Program Files\Google\Chrome\Application\chrome.exe";
+            process.StartInfo.FileName = Resource1.ChromeApp;
             process.Start();
 
             for (int i = from + 1; i <= to; i++)
             {
                 process.StartInfo.Arguments =
                         strUrl + i;
-                process.StartInfo.FileName = @"C:\Program Files\Google\Chrome\Application\chrome.exe";
+                process.StartInfo.FileName = Resource1.ChromeApp;
                 System.Threading.Thread.Sleep(200);
                 process.Start();
             }

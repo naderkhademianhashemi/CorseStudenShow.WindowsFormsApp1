@@ -61,6 +61,15 @@ namespace CorseStudenShow.WindowsFormsApp1.RSRX {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to C:\Program Files\Google\Chrome\Application\chrome.exe.
+        /// </summary>
+        internal static string ChromeApp {
+            get {
+                return ResourceManager.GetString("ChromeApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to https://reports.natoos.com/Education/CorseStudenShow?CourseId=.
         /// </summary>
         internal static string Natoos {
