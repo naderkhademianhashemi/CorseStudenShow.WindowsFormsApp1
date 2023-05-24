@@ -70,7 +70,7 @@ namespace CorseStudenShow.WindowsFormsApp1.RSRX {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to https://devtube.ir/Course/CourseVideo/.
         /// </summary>
         internal static string URL {
             get {

@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CorseStudenShow.WindowsFormsApp1.RSRX;
 
 namespace CorseStudenShow.WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        private readonly string strUrl = "Resource1.resx";
+        private readonly string strUrl = Resource1.URL;
 
         public Form1()
         {
