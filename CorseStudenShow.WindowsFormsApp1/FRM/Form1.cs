@@ -12,7 +12,7 @@ namespace CorseStudenShow.WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        private readonly string strUrl = "https://reports.natoos.com/Education/CorseStudenShow?CourseId=";
+        private readonly string strUrl = "Resource1.resx";
 
         public Form1()
         {
